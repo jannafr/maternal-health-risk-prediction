@@ -10,28 +10,13 @@ The dataset was obtained from Kaggle and contains 1,014 entries, including featu
 The dataset was obtained from Kaggle and contains 1,014 entries collected from hospitals and clinics to monitor maternal health risk. It includes features such as age, systolic and diastolic blood pressure, blood sugar, heart rate, and the target variable, RiskLevel, which is categorized as low, medium, or high risk. Outliers were removed before analysis.
 
 ## Methodology / Project Steps
-•	Loaded the dataset in Python and examined its structure using pandas.
-•	Cleaned the data by handling missing values, removing duplicates, and checking datatypes.
-•	Conducted Exploratory Data Analysis (EDA) using histograms, boxplots, and correlation heatmaps to explore feature distributions and relationships with RiskLevel.
-•	Identified and removed 37 outlier rows using the Z-score method to prevent extreme values from affecting the model.
-•	Encoded the RiskLevel target variable into numeric labels and standardized numeric features for consistent scaling.
-•	Split the dataset into training (70%) and testing (30%) sets.
-•	Trained a Random Forest Classifier to predict maternal risk levels.
-•	Evaluated model performance using accuracy, precision, recall, and F1-score.
-•	Analyzed feature importance and suggested threshold values for high-risk indicators.
+We loaded the dataset in Python and examined its structure using pandas. The data was cleaned by handling missing values, removing duplicates, and checking datatypes. We conducted exploratory data analysis using histograms, boxplots, and correlation heatmaps to study feature distributions and their relationships with RiskLevel. Outliers were identified and 37 rows were removed using the Z-score method to prevent extreme values from affecting the model. The RiskLevel target variable was encoded into numeric labels, and numeric features were standardized for consistent scaling. The dataset was split into training (70%) and testing (30%) sets. We trained a Random Forest Classifier to predict maternal risk levels and evaluated its performance using accuracy, precision, recall, and F1-score. Finally, we analyzed feature importance and suggested threshold values for high-risk indicators.
 
 ## Main Results
-•	Random Forest achieved 85% accuracy, showing reliable predictions across low, medium, and high-risk classes.
-•	Precision, recall, and F1-scores were balanced across all categories.
-•	Most influential features: blood sugar, systolic and diastolic blood pressure, and age.
-•	Possible thresholds for higher risk include: age > 35 years, systolic BP > 120 mmHg, diastolic BP > 90 mmHg, blood sugar > 11 mmol/L, body temperature > 98°C, heart rate > 78 bpm.
-•	Monitoring these key indicators can help identify high-risk patients early and guide preventive healthcare actions.
+The Random Forest model achieved 85% accuracy, demonstrating reliable predictions across low, medium, and high-risk classes. Precision, recall, and F1-scores were balanced across all categories. The most influential features were blood sugar, systolic and diastolic blood pressure, and age. Possible thresholds for higher risk include age above 35 years, systolic BP above 120 mmHg, diastolic BP above 90 mmHg, blood sugar above 11 mmol/L, body temperature above 98°C, and heart rate above 78 bpm. Monitoring these key indicators can help identify high-risk patients early and guide preventive healthcare actions.
 
 ## Prescriptive Insights
-•	Patients exceeding the thresholds should be monitored more closely.
-•	Regular check-ups and early interventions can help prevent complications.
-•	Healthcare providers can use such predictive models to improve maternal care programs.
-•	Model performance can be improved with larger, more diverse datasets.
+Patients exceeding these thresholds should be monitored more closely. Regular check-ups and early interventions can help prevent complications. Healthcare providers can use such predictive models to improve maternal care programs. Model performance can be further improved with larger and more diverse datasets.
 
 ## Authors
 •	Emiliano Gallardo
