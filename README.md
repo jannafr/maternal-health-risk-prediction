@@ -19,12 +19,12 @@ The Random Forest model achieved 85% accuracy, demonstrating reliable prediction
 Patients exceeding these thresholds should be monitored more closely. Regular check-ups and early interventions can help prevent complications. Healthcare providers can use such predictive models to improve maternal care programs. Model performance can be further improved with larger and more diverse datasets.
 
 ## Authors
-•	Emiliano Gallardo
-•	Rodrigo Rivas
-•	Laura Victoria Miquel Herrera
-•	Luis Felipe Navarro Torres
-•	Janna Freund
-•	Jacobo Ceballos Moná
+•	Emiliano Gallardo (https://github.com/EmilianoGallardoM)
+•	Rodrigo Rivas (https://github.com/rodrivas2003)
+•	Laura Victoria Miquel Herrera (https://github.com/VictoriaMiquel)
+•	Luis Felipe Navarro Torres (https://github.com/Navarro9399)
+•	Janna Freund (https://github.com/jannafr)
+•	Jacobo Ceballos Moná (https://github.com/JacoboC22)
 
 ## Technologies & Tools
 •	Python (Pandas, NumPy, Matplotlib, Seaborn)
