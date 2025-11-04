@@ -20,16 +20,24 @@ Patients exceeding these thresholds should be monitored more closely. Regular ch
 
 ## Authors
 •	Emiliano Gallardo (https://github.com/EmilianoGallardoM)
+
 •	Rodrigo Rivas (https://github.com/rodrivas2003)
+
 •	Laura Victoria Miquel Herrera (https://github.com/VictoriaMiquel)
+
 •	Luis Felipe Navarro Torres (https://github.com/Navarro9399)
+
 •	Janna Freund (https://github.com/jannafr)
+
 •	Jacobo Ceballos Moná (https://github.com/JacoboC22)
 
 ## Technologies & Tools
-•	Python (Pandas, NumPy, Matplotlib, Seaborn)
+•	Python (Pandas, NumPy, Matplotlib, Seaborn, Sklearn, Scipy)
+
 •	Jupyter Notebook 
+
 •	Visual Studio Code 
+
 •	GitHub repository
 
 
